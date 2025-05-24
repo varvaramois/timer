@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom, #1a0033, #3b0066, #4b0082);
+    background-image: url('./img/ulvqtdes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero__title {
+    font-size: 60px;
+    text-align: center;
+    color: #e5dfe8;
+    text-shadow: 0 0 17px #cc66ff, 0 0 20px #9933ff;
+    margin-top: 40px;
+}
+.hero__description {
+    margin: 0 auto; ;
+    text-shadow: 0 0 17px #9c1bdc, 0 0 20px #6012ad;
+    color: #ffffff;
+    max-width: 1300px;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero__item {
+    width: 145px;
+    height: 160px;
+    background: linear-gradient(145deg, #a34bc6, #9b30ff);
+    border-radius: 15px;
+    box-shadow: 0 0 10px #b366ff, 0 0 20px #9900cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    color: #fbeaff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero__subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fce6ff;
+    background: linear-gradient(to right, #a64dff, #d580ff);
+    text-align: center;
+    width: 145px;
+    height: 40px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    padding-top: 8px;
+    box-shadow: inset 0 0 5px #e265eb;
+}
+
+.hero__text {
+    font-size: 50px;
+    color: #f6e6ff;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 0 10px #bf80ff, 0 0 20px #aa00ff;
+}
